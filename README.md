@@ -6,9 +6,9 @@ This package is greatly inspired by [@jayesbe](https://github.com/jayesbe)'s ama
 
 ## Installation
 
-    npm install react-native-cached-image --save
+    npm install react-native-xys-cached-image --save
     - or -
-    yarn add react-native-cached-image
+    yarn add react-native-xys-cached-image
 
 We use [`rn-fetch-blob`](https://github.com/joltup/rn-fetch-blob#user-content-installation) to handle file system access in this package and it requires an extra step during the installation.  
 

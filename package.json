@@ -1,6 +1,6 @@
 {
-  "name": "react-native-cached-image",
-  "version": "1.4.3",
+  "name": "react-native-xys-cached-image",
+  "version": "1.4.4",
   "description": "CachedImage component for react-native",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "cache",
     "image"
   ],
-  "author": "kfiroo <kfirgolan@gmail.com>",
+  "author": "mucapp <koma@muchenglin.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kfiroo/react-native-cached-image/issues"
