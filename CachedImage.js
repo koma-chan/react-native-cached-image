@@ -189,6 +189,10 @@ class CachedImage extends React.Component {
         const activityIndicatorProps = _.omit(this.props.activityIndicatorProps, ['style']);
         const activityIndicatorStyle = this.props.activityIndicatorProps.style || styles.loader;
 
+        if (!imageProps.loader) {
+            return (<View style={[imageStyle, activityIndicatorStyle]}></View>)
+        }
+
         const LoadingIndicator = this.props.loadingIndicator;
 
         const source = this.props.defaultSource;
